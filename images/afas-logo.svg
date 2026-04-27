@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60" fill="none">
+  <!-- A letter styled as arrow/triangle -->
+  <text x="0" y="44" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="48" fill="#1a3a8a" letter-spacing="-2">A</text>
+  <!-- Blue triangle overlay on the A -->
+  <polygon points="18,10 26,2 34,10" fill="#1a3a8a"/>
+  <!-- FAS text in red -->
+  <text x="32" y="44" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="48" fill="#D42027" letter-spacing="-2">FAS</text>
+  <!-- Subtitle -->
+  <text x="1" y="56" font-family="Arial, sans-serif" font-weight="700" font-size="8.5" fill="#1a3a8a" letter-spacing="0.3">AFET ve ACİL DURUM SİSTEMLERİ</text>
+</svg>
