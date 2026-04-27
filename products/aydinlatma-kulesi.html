@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AFS-2500 Aydınlatma Kulesi - Yerli üretim inovatif aydınlatma kulesi. Enerji bağımsız, yüksek kapasiteli LED aydınlatma.">
+  <title>AFS-2500 Aydınlatma Kulesi | AFAŞ Afet A.Ş.</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="header header--solid" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="../index.html" class="logo"><div class="logo-icon">A</div> AFAŞ</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html#hakkimizda">Hakkımızda</a></li>
+          <li><a href="../index.html#urunler">Ürünler</a></li>
+          <li><a href="../index.html#teknoloji">Teknoloji</a></li>
+          <li><a href="../index.html#iletisim">İletişim</a></li>
+          <li><a href="../index.html#iletisim" class="nav-cta">Teklif Al</a></li>
+        </ul>
+        <div class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pd-hero">
+    <img src="../images/lighting_tower.png" alt="AFS-2500 Aydınlatma Kulesi">
+    <div class="pd-hero-content">
+      <div class="pd-hero-badge"><span class="meta-dot" style="background:#E65100"></span> AFS-2500 — Yerli Üretim</div>
+      <h1>Aydınlatma Kulesi</h1>
+      <p>Elektrik altyapısının çöktüğü alanlarda yüksek kapasiteli aydınlatma ve güç desteği.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="pd-breadcrumb"><a href="../index.html">Ana Sayfa</a> → <a href="../index.html#urunler">Ürünler</a> → Aydınlatma Kulesi</div>
+    <div class="pd-content">
+      <div class="pd-description fade-up">
+        <h2>AFS-2500 Yüksek Kapasiteli Aydınlatma Kulesi</h2>
+        <p>AFAŞ AFS-2500 Aydınlatma Kulesi, yerli ve özel üretim olan inovatif bir aydınlatma çözümüdür. Elektrik altyapısının çöktüğü afet bölgelerinde, şantiyelerde ve açık alanlarda yüksek kapasiteli aydınlatma ve güç desteği sağlar.</p>
+        <p>Teleskopik direk sistemi ile hızlıca yükseltilen kule, geniş bir alanı etkili şekilde aydınlatır. Entegre jeneratör sayesinde tamamen enerji bağımsız çalışabilir. Sahada yüksek görünürlük ve güvenlik sağlamak için tasarlanmıştır.</p>
+
+        <div class="pd-features">
+          <h3>Öne Çıkan Özellikler</h3>
+          <div class="pd-feature-list">
+            <div class="pd-feature-item"><div class="pd-feature-icon">💡</div> Yüksek kapasiteli LED aydınlatma</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🔋</div> Enerji bağımsız çalışma kapasitesi</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">📡</div> Teleskopik direk sistemi</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">⚡</div> Entegre güç ünitesi</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🚛</div> Kolay taşıma ve kurulum</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🇹🇷</div> %100 yerli ve özel üretim</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pd-sidebar fade-up">
+        <div class="pd-specs-card">
+          <h3>Teknik Özellikler</h3>
+          <div class="pd-spec-row"><span class="pd-spec-label">Model</span><span class="pd-spec-value">AFS-2500</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Aydınlatma</span><span class="pd-spec-value">LED</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Direk</span><span class="pd-spec-value">Teleskopik</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Enerji</span><span class="pd-spec-value">Bağımsız</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Taşıma</span><span class="pd-spec-value">Mobil</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Üretim</span><span class="pd-spec-value">%100 Yerli</span></div>
+        </div>
+        <div class="pd-cta-card">
+          <h3>Teklif Alın</h3>
+          <p>AFS-2500 hakkında detaylı bilgi ve fiyat teklifi için iletişime geçin.</p>
+          <a href="../index.html#iletisim" class="pd-cta-btn">İletişime Geç →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer-bottom">© 2025 AFAŞ Afet Haberleşme Destek Sistemleri San. ve Tic. A.Ş. Tüm hakları saklıdır.</div></div></footer>
+  <script>
+    const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }); }, {threshold:0.1});
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AFAŞ Destek Üniteleri - Mutfak, duş ve tuvalet modüler konteyner çözümleri. RAL 6037, Sandviç Panel.">
+  <title>Destek Üniteleri | AFAŞ Afet A.Ş.</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="header header--solid" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="../index.html" class="logo"><div class="logo-icon">A</div> AFAŞ</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html#hakkimizda">Hakkımızda</a></li>
+          <li><a href="../index.html#urunler">Ürünler</a></li>
+          <li><a href="../index.html#teknoloji">Teknoloji</a></li>
+          <li><a href="../index.html#iletisim">İletişim</a></li>
+          <li><a href="../index.html#iletisim" class="nav-cta">Teklif Al</a></li>
+        </ul>
+        <div class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pd-hero">
+    <img src="../images/support_unit.png" alt="Destek Üniteleri">
+    <div class="pd-hero-content">
+      <div class="pd-hero-badge"><span class="meta-dot" style="background:#008B29"></span> RAL 6037 — Yeşil</div>
+      <h1>Destek Üniteleri</h1>
+      <p>Afet bölgelerinde temel hijyen ve yaşam ihtiyaçlarını karşılayan modern konteyner çözümleri.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="pd-breadcrumb"><a href="../index.html">Ana Sayfa</a> → <a href="../index.html#urunler">Ürünler</a> → Destek Üniteleri</div>
+    <div class="pd-content">
+      <div class="pd-description fade-up">
+        <h2>Mutfak, Duş ve Tuvalet Çözümleri</h2>
+        <p>AFAŞ Destek Üniteleri, afet bölgelerinde veya şantiye alanlarında temel hijyen ihtiyaçlarını karşılamak üzere tasarlanmış modüler konteyner yapılardır. Modern iç mekan düzeni, dayanıklı malzeme kalitesi ve hızlı kurulum özelliğiyle sahada fark yaratır.</p>
+        <p>RAL 5015 (Mavi) veya RAL 6037 (Yeşil) renk seçenekleriyle üretilen üniteler, sandviç panel duvar yapısı sayesinde üstün ısı ve ses izolasyonu sağlar. İç mekanlarda beyaz seramik armatürler ve kolay temizlenebilir yüzeyler kullanılmaktadır.</p>
+
+        <div class="pd-features">
+          <h3>Öne Çıkan Özellikler</h3>
+          <div class="pd-feature-list">
+            <div class="pd-feature-item"><div class="pd-feature-icon">🚿</div> Duş, tuvalet ve lavabo entegrasyonu</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🍳</div> Mutfak modülü seçeneği</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🧱</div> Sandviç panel ısı ve ses izolasyonu</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">💧</div> Su tesisatı altyapısı hazır</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">♻️</div> Kolay temizlenebilir hijyenik yüzeyler</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🔌</div> Elektrik ve aydınlatma sistemi</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🏗️</div> Modüler ve taşınabilir yapı</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pd-sidebar fade-up">
+        <div class="pd-specs-card">
+          <h3>Teknik Özellikler</h3>
+          <div class="pd-spec-row"><span class="pd-spec-label">Tip</span><span class="pd-spec-value">Duş / WC / Mutfak</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Dış Cephe</span><span class="pd-spec-value">Sandviç Panel</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Renk</span><span class="pd-spec-value">RAL 5015 / 6037</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">İzolasyon</span><span class="pd-spec-value">Isı + Ses</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Tesisat</span><span class="pd-spec-value">Su + Elektrik</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Üretim</span><span class="pd-spec-value">%100 Yerli</span></div>
+        </div>
+        <div class="pd-cta-card">
+          <h3>Teklif Alın</h3>
+          <p>İhtiyacınıza özel modül kombinasyonları için iletişime geçin.</p>
+          <a href="../index.html#iletisim" class="pd-cta-btn">İletişime Geç →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer-bottom">© 2025 AFAŞ Afet Haberleşme Destek Sistemleri San. ve Tic. A.Ş. Tüm hakları saklıdır.</div></div></footer>
+  <script>
+    const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }); }, {threshold:0.1});
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
