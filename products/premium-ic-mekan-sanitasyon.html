@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AFAS Destek Üniteleri - Mutfak, duş ve tuvalet modüler ünite çözümleri.">
+  <title>Premium İç Mekan ve Sanitasyon Standartları | AFAS</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="header header--solid" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="../index.html" class="logo"><img src="../resimler/logo.png" alt="AFAS Logo" class="logo-img"></a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html#hakkimizda">Hakkımızda</a></li>
+          <li><a href="../index.html#urunler">Ürünler</a></li>
+          <li><a href="../index.html#teknoloji">Teknoloji</a></li>
+          <li><a href="../index.html#iletisim">İletişim</a></li>
+          <li><a href="../index.html#iletisim" class="nav-cta">Teklif Al</a></li>
+        </ul>
+        <div class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pd-hero">
+    <img src="../resimler/yeni3.png" alt="Premium İç Mekan ve Sanitasyon Standartları">
+    <div class="pd-hero-content">
+      <div class="pd-hero-badge"><span class="meta-dot" style="background:#008B29"></span> Modüler Çözüm</div>
+      <h1>Premium İç Mekan ve Sanitasyon Standartları</h1>
+      <p>Afet bölgeleri, geçici yerleşim alanları ve şantiyeler için hızlı kurulan, tam donanımlı ve yüksek hijyen standartlarına sahip mobil tuvalet ve duş üniteleri.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="pd-breadcrumb"><a href="../index.html">Ana Sayfa</a> → <a href="../index.html#urunler">Ürünler</a> → Premium İç Mekan ve Sanitasyon Standartları</div>
+    <div class="pd-content">
+      <div class="pd-description fade-up">
+        <h2>Kapsamlı Hijyen ve Tesisat Altyapısı</h2>
+        <p>Kalabalık insan gruplarının bulunduğu acil durum alanlarında salgın hastalık riskini en aza indirmek ve temel insan onurunu korumak amacıyla tasarlanan AFAS Taşınabilir Saniter Çözümleri, üstün izolasyonlu yapısıyla her iklimde güvenle kullanılabilir.</p>
+        <p>Temiz ve atık su tesisatı entegre edilmiş, antibakteriyel iç yüzeylere sahip bu üniteler, tak-çalıştır özelliğiyle anında devreye alınır.</p>
+        <div class="pd-features">
+          <h3>Öne Çıkan Özellikler</h3>
+          <div class="pd-feature-list">
+            <div class="pd-feature-item"><div class="pd-feature-icon">🚻</div> Kadın/Erkek/Engelli erişimine uygun çoklu kabin seçenekleri</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">✨</div> Antibakteriyel ve korozyona dayanıklı paslanmaz iç donanım</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">💧</div> Entegre temiz su deposu ve atık su tahliye altyapısı</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">💨</div> Doğal havalandırma ve aydınlatma sistemleri</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🏗️</div> Zorlu arazi şartlarına uygun güçlendirilmiş taban şasesi</div>
+          </div>
+        </div>
+      </div>
+      <div class="pd-sidebar fade-up">
+        <div class="pd-specs-card">
+          <h3>Teknik Özellikler</h3>
+          <div class="pd-spec-row"><span class="pd-spec-label">Kullanım Tipi</span><span class="pd-spec-value">Mobil Tuvalet / Duş</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Dış Cephe</span><span class="pd-spec-value">Suya Dayanıklı Panel</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">İç Donanım</span><span class="pd-spec-value">Antibakteriyel Kaplama</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Tesisat</span><span class="pd-spec-value">Temiz/Atık Su + Hava</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Taşıma Tipi</span><span class="pd-spec-value">Forklift / Vinç İle</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Üretim</span><span class="pd-spec-value">%100 Yerli</span></div>
+        </div>
+        <div class="pd-cta-card">
+          <h3>Teklif Alın</h3>
+          <p>İhtiyacınıza özel modül kombinasyonları için iletişime geçin.</p>
+          <a href="../index.html#iletisim" class="pd-cta-btn">İletişime Geç →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer-bottom">© 2025 AFAS Afet Haberleşme Destek Sistemleri San. ve Tic. A.Ş. Tüm hakları saklıdır.</div></div></footer>
+  <script>
+    const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }); }, {threshold:0.1});
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

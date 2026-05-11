@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AFAS Destek Üniteleri - Mutfak, duş ve tuvalet modüler ünite çözümleri.">
+  <title>Okul ve Kamu Acil Durum Ünitesi | AFAS</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="header header--solid" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="../index.html" class="logo"><img src="../resimler/logo.png" alt="AFAS Logo" class="logo-img"></a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html#hakkimizda">Hakkımızda</a></li>
+          <li><a href="../index.html#urunler">Ürünler</a></li>
+          <li><a href="../index.html#teknoloji">Teknoloji</a></li>
+          <li><a href="../index.html#iletisim">İletişim</a></li>
+          <li><a href="../index.html#iletisim" class="nav-cta">Teklif Al</a></li>
+        </ul>
+        <div class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pd-hero">
+    <img src="../resimler/eklenicek2.jpeg" alt="Okul ve Kamu Acil Durum Ünitesi">
+    <div class="pd-hero-content">
+      <div class="pd-hero-badge"><span class="meta-dot" style="background:#008B29"></span> Modüler Çözüm</div>
+      <h1>Okul ve Kamu Acil Durum Ünitesi</h1>
+      <p>Eğitim kurumları, kamu binaları ve yerel yönetim alanları için özel olarak tasarlanmış, afet anında hızlı ve güvenli toplanma sağlayan donanımlı acil durum koordinasyon modülü.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="pd-breadcrumb"><a href="../index.html">Ana Sayfa</a> → <a href="../index.html#urunler">Ürünler</a> → Okul ve Kamu Acil Durum Ünitesi</div>
+    <div class="pd-content">
+      <div class="pd-description fade-up">
+        <h2>Güvenli Toplanma ve Kriz Yönetimi</h2>
+        <p>Olası afet ve acil durumlarda okullar ve kamu binalarının bahçelerinde anında devreye giren AFAS Okul ve Kamu Acil Durum Ünitesi, kriz yönetiminin merkezden hızlıca koordine edilmesini sağlar.</p>
+        <p>İçerisinde ilk yardım, haberleşme, barınma ve temel ihtiyaçları barındıran bu modül, panik anında güvenli bir sığınak ve müdahale noktası olarak hayat kurtarır.</p>
+        <div class="pd-features">
+          <h3>Öne Çıkan Özellikler</h3>
+          <div class="pd-feature-list">
+            <div class="pd-feature-item"><div class="pd-feature-icon">📢</div> Acil durum haberleşme ve anons altyapısı</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">⚕️</div> Temel ilk yardım ve medikal ekipman depolama alanı</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🔋</div> Şebekeden bağımsız enerji ve aydınlatma sistemleri</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">📹</div> Güvenlik kameraları ve çevre izleme uyumluluğu</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🏫</div> Öğrenci ve personel güvenliği için optimize edilmiş iç yapı</div>
+          </div>
+        </div>
+      </div>
+      <div class="pd-sidebar fade-up">
+        <div class="pd-specs-card">
+          <h3>Teknik Özellikler</h3>
+          <div class="pd-spec-row"><span class="pd-spec-label">Tip</span><span class="pd-spec-value">Kamu / Acil Durum</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Dış Cephe</span><span class="pd-spec-value">Darbeye Dayanıklı Panel</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Donanım</span><span class="pd-spec-value">İlk Yardım + Haberleşme</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Enerji</span><span class="pd-spec-value">Batarya / Güneş Paneli</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Kurulum</span><span class="pd-spec-value">Kamu Alanlarına Uyumlu</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Üretim</span><span class="pd-spec-value">%100 Yerli</span></div>
+        </div>
+        <div class="pd-cta-card">
+          <h3>Teklif Alın</h3>
+          <p>İhtiyacınıza özel modül kombinasyonları için iletişime geçin.</p>
+          <a href="../index.html#iletisim" class="pd-cta-btn">İletişime Geç →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer-bottom">© 2025 AFAS Afet Haberleşme Destek Sistemleri San. ve Tic. A.Ş. Tüm hakları saklıdır.</div></div></footer>
+  <script>
+    const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }); }, {threshold:0.1});
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

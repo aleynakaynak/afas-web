@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AFAS Destek Üniteleri - Mutfak, duş ve tuvalet modüler ünite çözümleri.">
+  <title>Modüler Lojistik ve Depolama Üniteleri | AFAS</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="header header--solid" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="../index.html" class="logo"><img src="../resimler/logo.png" alt="AFAS Logo" class="logo-img"></a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html#hakkimizda">Hakkımızda</a></li>
+          <li><a href="../index.html#urunler">Ürünler</a></li>
+          <li><a href="../index.html#teknoloji">Teknoloji</a></li>
+          <li><a href="../index.html#iletisim">İletişim</a></li>
+          <li><a href="../index.html#iletisim" class="nav-cta">Teklif Al</a></li>
+        </ul>
+        <div class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pd-hero">
+    <img src="../resimler/revize1.jpeg" alt="Modern modüler destek üniteleri">
+    <div class="pd-hero-content">
+      <div class="pd-hero-badge"><span class="meta-dot" style="background:#008B29"></span> Modüler Çözüm</div>
+      <h1>Modüler Lojistik ve Depolama Üniteleri</h1>
+      <p>Afet bölgelerinde ve büyük ölçekli şantiyelerde kritik malzemelerin güvenli, düzenli ve hava koşullarından bağımsız bir şekilde depolanmasını sağlayan endüstriyel çözüm.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="pd-breadcrumb"><a href="../index.html">Ana Sayfa</a> → <a href="../index.html#urunler">Ürünler</a> → Modüler Lojistik ve Depolama Üniteleri</div>
+    <div class="pd-content">
+      <div class="pd-description fade-up">
+        <h2>Kritik Ekipmanlar İçin Güvenli Muhafaza</h2>
+        <p>Acil durumlarda tıbbi sarf malzemeleri, erzak, arama-kurtarma teçhizatları ve teknik ekipmanların doğru muhafaza edilmesi hayati önem taşır. AFAS Modüler Lojistik ve Depolama Üniteleri, bu ihtiyaca yönelik yüksek izolasyonlu ve güvenli bir alan sunar.</p>
+        <p>Geniş iç hacmi, güçlendirilmiş taban yapısı ve modüler raf sistemleriyle her türlü lojistik operasyonun merkezinde yer alır. Dış ortam şartlarına karşı maksimum koruma sağlar.</p>
+        <div class="pd-features">
+          <h3>Öne Çıkan Özellikler</h3>
+          <div class="pd-feature-list">
+            <div class="pd-feature-item"><div class="pd-feature-icon">📦</div> Ağır yüke dayanıklı güçlendirilmiş taban şasesi ve zemin kaplaması</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🔒</div> Hırsızlığa ve yetkisiz erişime karşı yüksek güvenlikli kapı/kilit sistemleri</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🌡️</div> Hassas malzemeler için ısı ve nem izolasyonlu poliüretan sandviç panel</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🏗️</div> Forklift ve vinç ile hızlı yükleme/boşaltma imkanı sağlayan geniş kapılar</div>
+            <div class="pd-feature-item"><div class="pd-feature-icon">🔄</div> İhtiyaca göre uyarlanabilen endüstriyel raf ve bölme altyapısı</div>
+          </div>
+        </div>
+      </div>
+      <div class="pd-sidebar fade-up">
+        <div class="pd-specs-card">
+          <h3>Teknik Özellikler</h3>
+          <div class="pd-spec-row"><span class="pd-spec-label">Kullanım Amacı</span><span class="pd-spec-value">Lojistik / Depolama</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Dış Cephe</span><span class="pd-spec-value">Poliüretan Sandviç Panel</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Kapı Tipi</span><span class="pd-spec-value">Geniş Endüstriyel Kapı</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Zemin</span><span class="pd-spec-value">Güçlendirilmiş Şasi</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Güvenlik</span><span class="pd-spec-value">Yüksek / İzolasyonlu</span></div>
+          <div class="pd-spec-row"><span class="pd-spec-label">Üretim</span><span class="pd-spec-value">%100 Yerli</span></div>
+        </div>
+        <div class="pd-cta-card">
+          <h3>Teklif Alın</h3>
+          <p>İhtiyacınıza özel modül kombinasyonları için iletişime geçin.</p>
+          <a href="../index.html#iletisim" class="pd-cta-btn">İletişime Geç →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer-bottom">© 2025 AFAS Afet Haberleşme Destek Sistemleri San. ve Tic. A.Ş. Tüm hakları saklıdır.</div></div></footer>
+  <script>
+    const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }); }, {threshold:0.1});
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
