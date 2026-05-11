@@ -99,6 +99,18 @@ img { max-width: 100%; display: block; }
   height: 70px;
 }
 
+@media (max-width: 768px) {
+  .logo-img {
+    height: 100px;
+  }
+  .header.scrolled .logo-img {
+    height: 50px;
+  }
+  .header {
+    padding: 10px 0;
+  }
+}
+
 .nav-links {
   display: flex;
   align-items: center;
