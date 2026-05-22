@@ -37,7 +37,21 @@
     <div class="hero-content container">
       <h1 class="hero-title">Hazırlıklı Ol !!</h1>
       <p class="hero-subtitle">Afet yönetimi, acil durum müdahale ekipmanları ve<br>modüler yaşam çözümleri. Yerli üretim, güvenilir teknoloji.</p>
-
+      <div class="filter-bar">
+        <div class="filter-item">
+          <div class="filter-label">Ürün Tipi</div>
+          <div class="filter-value">Modüler Ünite</div>
+        </div>
+        <div class="filter-item">
+          <div class="filter-label">Kullanım Alanı</div>
+          <div class="filter-value">Acil Durum</div>
+        </div>
+        <div class="filter-item">
+          <div class="filter-label">Kapasite</div>
+          <div class="filter-value">Tüm Boyutlar</div>
+        </div>
+        <button class="filter-btn">Keşfet</button>
+      </div>
     </div>
   </section>
 
@@ -325,27 +339,7 @@
     </div>
   </section>
 
-  <!-- ===== STATS ===== -->
-  <div class="container">
-    <div class="stats fade-up">
-      <div class="stat">
-        <div class="stat-number">150+</div>
-        <div class="stat-label">Tamamlanan Proje</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">50+</div>
-        <div class="stat-label">Kurumsal Müşteri</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">%100</div>
-        <div class="stat-label">Yerli Üretim</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">7/24</div>
-        <div class="stat-label">Teknik Destek</div>
-      </div>
-    </div>
-  </div>
+
 
   <!-- ===== CONTACT ===== -->
   <section class="section" id="iletisim">
@@ -459,32 +453,7 @@
 
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-    // Stat counter animation
-    const statObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.querySelectorAll('.stat-number').forEach(num => {
-            const text = num.textContent;
-            const match = text.match(/(\d+)/);
-            if (match) {
-              const target = parseInt(match[0]);
-              const prefix = text.split(match[0])[0];
-              const suffix = text.split(match[0])[1];
-              let current = 0;
-              const step = Math.ceil(target / 40);
-              const timer = setInterval(() => {
-                current += step;
-                if (current >= target) { current = target; clearInterval(timer); }
-                num.textContent = prefix + current + suffix;
-              }, 30);
-            }
-          });
-          statObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.5 });
 
-    document.querySelectorAll('.stats').forEach(el => statObserver.observe(el));
 
     // Contact form - send email
     function sendEmail(e) {
